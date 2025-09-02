@@ -1,0 +1,17 @@
+.personal {
+    background-color: black;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.personal, h1, li{
+    color: white;
+}
+
+.funtext {
+    margin-right: 20%;
+}
+img {
+    float: right;
+}
