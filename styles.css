@@ -10,8 +10,10 @@
 }
 
 .funtext {
-    margin-right: 20%;
+    margin-right: 50%;
+    order: 1;
 }
 img {
+    order: 2;
     float: right;
 }
