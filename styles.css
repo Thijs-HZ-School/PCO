@@ -1,35 +1,50 @@
 .navbar {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(67, 0, 129);
-    font-family: monospace;
-    font-size: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(67, 0, 129);
+  font-size: 25px;
 }
 
 .navbar li {
-    float: left;
-    list-style-type: none;
+  float: left;
 }
 
 .navbar li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
 }
 
 .navbar li a:hover {
-    background-color:rgb(42, 0, 81)
+  background-color:rgb(42, 0, 81);
 }
 
-.title {
-    margin-top: 10px;
-    font-family: monospace;
+.thispage {
+    background-color: black
+}
+
+.thipage:hover {
+    background-color: gainsboro;
+}
+
+body {
     background-color: black;
+    font-family: monospace;
     color: white;
+}
+
+.nametext {
     text-align: center;
-    font-size: 50px;
-    padding: 1px;
+    font-size: 75px;
+    padding-top: 10%;
+}
+
+.bottomtext {
+    text-align: center;
+    padding: 5%;
+    font-size: 25px;
 }
