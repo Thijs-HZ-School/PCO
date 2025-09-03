@@ -1,22 +1,29 @@
 .navbar {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: -10px;
   overflow: hidden;
   background-color: rgb(67, 0, 129);
   font-size: 25px;
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul {
+    margin: 0px;
+    padding: 0px;
 }
 
 .navbar li {
   float: left;
+  list-style-type: none;
 }
 
 .navbar li a {
   display: block;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
   color: white;
+  text-decoration: none;
 }
 
 .navbar li a:hover {
