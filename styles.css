@@ -72,20 +72,34 @@ body {
     color: white;
 }
 
-main {
+main{
   margin-left: 130px;
   margin-top: 60px;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 10%;
+}
 
+main a {
+  color: aqua;
+}
+
+.links {
+  margin-top: -25px;
+}
+
+.noscroll {
+  overflow: hidden;
 }
 
 .nametext {
     text-align: center;
     font-size: 75px;
-    padding-top: 10%;
+    text-decoration: underline;
 }
 
-.bottomtext {
-    text-align: center;
-    padding: 5%;
-    font-size: 25px;
+.tinytext {
+  font-size: 10px;
+  color: gray;
 }
