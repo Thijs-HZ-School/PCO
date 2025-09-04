@@ -1,11 +1,14 @@
 .navbar {
   list-style-type: none;
-  margin: -10px;
+  margin-left: -10px;
+  width: 100%;
   overflow: hidden;
   background-color: rgb(67, 0, 129);
   font-size: 25px;
-  position: sticky;
+  /* position: sticky; */
+  position: fixed;
   top: 0;
+  z-index: 2;
 }
 
 .navbar ul {
@@ -38,11 +41,39 @@
     background-color: gainsboro;
 }
 
+
+.sidenav {
+  height: 100%;
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(67, 0, 129);
+  overflow-x: hidden;
+  padding-top: 55px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  background-color: rgb(42, 0, 81);
+}
+
+
 body {
     background-color: black;
     font-family: monospace;
     color: white;
 }
+
+main {margin-left: 130px;}
 
 .nametext {
     text-align: center;
