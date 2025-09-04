@@ -61,7 +61,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(13, 0, 24);
     font-family: monospace;
     color: white;
 }
@@ -84,9 +84,9 @@ main a {
 }
 
 .nametext {
-    text-align: center;
-    font-size: 60px;
-    text-decoration: underline;
+  text-align: center;
+  font-size: 60px;
+  /* text-decoration: underline; */
 }
 
 .tinytext {
@@ -95,7 +95,7 @@ main a {
 }
 
 .bloglayout {
-  font-size: 60px;
+  font-size: 70px;
 }
 
 .bloglayout a {
@@ -109,5 +109,5 @@ main a {
 }
 
 .bloglayout a:hover {
-  background-color: rgb(81, 81, 81);
+  background-color: rgb(42, 0, 81);
 }
