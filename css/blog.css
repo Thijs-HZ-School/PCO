@@ -1,0 +1,17 @@
+.bloglayout {
+  font-size: 70px;
+}
+
+.bloglayout a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 14px;
+}
+
+.bloglayout p {
+  margin: 30px 30px;
+}
+
+.bloglayout a:hover {
+  background-color: rgb(42, 0, 81);
+}

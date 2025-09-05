@@ -1,0 +1,10 @@
+Fallacies:
+Lijnen zijn te lang: Enter tussen sommige stukken text zetten  ----- opgelost
+Foto's hebben geen alt tag: Maak het normaal om foto's een alt tag te geven ------ opgelost
+Eén CSS bestand wordt te groot: Probeer het in meerdere CSS bestanden te delen ------ opgelost
+
+Tussen ons allebei merkten we dat één styles.css niet handig is. We hebben allebei de foto's ook geen alt tag gegeven
+
+carelessless: 
+LI in uppercase, niet gezien -- opgelost
+Een uitgecommende code in de CSS gelaten --- opgelost
