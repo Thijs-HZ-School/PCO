@@ -5,6 +5,11 @@ Eén CSS bestand wordt te groot: Probeer het in meerdere CSS bestanden te delen 
 
 Tussen ons allebei merkten we dat één styles.css niet handig is. We hebben allebei de foto's ook geen alt tag gegeven
 
-carelessless: 
+carelessness: 
 LI in uppercase, niet gezien -- opgelost
 Een uitgecommende code in de CSS gelaten --- opgelost
+
+Footer -- gedaan 
+CSS Combineren --- Gedaan :3
+Lists puntjes ---gedaan
+variabelen in CSS -- toch niet nodig

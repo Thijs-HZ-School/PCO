@@ -11,8 +11,8 @@
 }
 
 .navbar ul {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .navbar li {
@@ -28,12 +28,8 @@
   text-decoration: none;
 }
 
-.navbar li a:hover {
+.navbar li a:hover, .thispage, .sidenav a:hover {
   background-color:rgb(42, 0, 81);
-}
-
-.thispage {
-  background-color: rgb(42, 0, 81);
 }
 
 .sidenav {
@@ -56,10 +52,6 @@
   display: block;
 }
 
-.sidenav a:hover {
-  background-color: rgb(42, 0, 81);
-}
-
 body {
     background-color: rgb(13, 0, 24);
     font-family: monospace;
@@ -73,6 +65,7 @@ main {
   text-align: center;
   margin-left: 19%;
   margin-right: 10%;
+  list-style-position: inside;
 }
 
 main a {
@@ -80,6 +73,37 @@ main a {
 }
 
 .nametext {
-  text-align: center;
   font-size: 60px;
+}
+
+/* ------------------- voor de Blog -------------------------- */
+.bloglayout {
+  font-size: 70px;
+}
+
+.bloglayout a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 14px;
+}
+
+.bloglayout p {
+  margin: 30px 30px;
+}
+
+.bloglayout a:hover {
+  background-color: rgb(42, 0, 81);
+}
+
+/* ------------------ voor de Index  --------------------------------*/
+
+.tinytext {
+  font-size: 10px;
+  color: gray;
+}
+
+/* ------------------- voor de Profile -----------------------------------*/
+
+.links {
+  margin-top: -25px;
 }
