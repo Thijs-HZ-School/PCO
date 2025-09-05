@@ -84,6 +84,10 @@ main a {
   text-decoration: none;
 }
 
+.bloglayout p {
+  padding-bottom: 10px;
+}
+
 .blogpost:hover {
   background-color: rgb(42, 0, 81);
 }
