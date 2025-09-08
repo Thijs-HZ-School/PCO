@@ -89,6 +89,10 @@ main a {
 }
 
 .blogpost:hover {
+  background-color: rgb(67, 0, 129);
+}
+
+.blogpost {
   background-color: rgb(42, 0, 81);
 }
 
