@@ -107,8 +107,20 @@ main a {
 }
 
 /* -------------------- voor de Dashboard --------------------------------- */
-.dashtable, th, td {
-  border:1px solid white;
+
+
+th, td {
+  padding: 4px;
+  border: 3px solid  black;
+}
+
+td {
+  background-color: rgb(42, 0, 81);
+}
+
+th {
+  font-size: 25px;
+  background-color: rgb(67, 0, 129);
 }
 
 .failgrade {
