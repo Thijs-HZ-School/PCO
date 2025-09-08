@@ -1,9 +1,15 @@
+:root {
+  --brightpurp: rgb(67, 0, 129);
+  --darkpurp: rgb(42, 0, 81);
+  --backpurp: rgb(13, 0, 24);
+}
+
 .navbar {
   list-style-type: none;
   margin-left: -10px;
   width: 100%;
   overflow: hidden;
-  background-color: rgb(67, 0, 129);
+  background-color: var(--brightpurp);
   font-size: 25px;
   position: fixed;
   top: 0;
@@ -29,7 +35,7 @@
 }
 
 .navbar li a:hover, .thispage, .sidenav a:hover {
-  background-color:rgb(42, 0, 81);
+  background-color:var(--darkpurp);
 }
 
 .sidenav {
@@ -39,7 +45,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgb(67, 0, 129);
+  background-color: var(--brightpurp);
   overflow-x: hidden;
   padding-top: 55px;
 }
@@ -53,7 +59,7 @@
 }
 
 body {
-    background-color: rgb(13, 0, 24);
+    background-color: var(--backpurp);
     font-family: monospace;
     color: white;
 }
@@ -89,20 +95,33 @@ main a {
 }
 
 .blogpost:hover {
-  background-color: rgb(67, 0, 129);
+  background-color: var(--brightpurp);
 }
 
 .blogpost {
-  background-color: rgb(42, 0, 81);
+  background-color: var(--darkpurp);
 }
 
 
 /* ------------------ voor de Index  --------------------------------*/
 
+@keyframes hzspin{
+  0% {transform: rotate(0deg)}
+  100% {transform: rotate(46080deg)}
+}
+
+.hzlogo {
+  animation: hzspin;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
 .tinytext {
   font-size: 10px;
   color: gray;
 }
+
+
 
 /* ------------------- voor de Profile -----------------------------------*/
 
@@ -115,16 +134,16 @@ main a {
 
 th, td {
   padding: 4px;
-  border: 3px solid  black;
+  border: 3px solid  var(--backpurp);
 }
 
 td {
-  background-color: rgb(42, 0, 81);
+  background-color: var(--darkpurp);
 }
 
 th {
   font-size: 25px;
-  background-color: rgb(67, 0, 129);
+  background-color: var(--brightpurp);
 }
 
 .failgrade {
