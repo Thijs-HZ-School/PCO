@@ -105,3 +105,20 @@ main a {
 .links {
   margin-top: -25px;
 }
+
+/* -------------------- voor de Dashboard --------------------------------- */
+.dashtable, th, td {
+  border:1px solid white;
+}
+
+.failgrade {
+  background-color: rgb(98, 0, 0);
+}
+
+.nograde {
+  background-color: rgb(86, 56, 0);
+}
+
+.passgrade {
+  background-color: rgb(0, 87, 0);
+}
