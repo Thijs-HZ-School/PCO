@@ -4,6 +4,10 @@
   --backpurp: rgb(13, 0, 24);
 }
 
+@keyframes hoveron {
+  100% {background-color: var(--darkpurp);}
+}
+
 .navbar {
   list-style-type: none;
   margin-left: -10px;
@@ -35,7 +39,9 @@
 }
 
 .navbar li a:hover, .thispage, .sidenav a:hover {
-  background-color:var(--darkpurp);
+  animation-name: hoveron;
+  animation-duration: 200ms;
+  animation-fill-mode: both;
 }
 
 .sidenav {
@@ -96,11 +102,16 @@ main a {
 
 .blogpost:hover {
   background-color: var(--brightpurp);
+  animation-name: hoveron;
+  animation-duration: 100ms;
+  animation-direction: reverse;
+  animation-fill-mode: both;
 }
 
 .blogpost {
   background-color: var(--darkpurp);
 }
+
 
 
 /* ------------------ voor de Index  --------------------------------*/
