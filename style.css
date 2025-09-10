@@ -38,10 +38,14 @@
   text-decoration: none;
 }
 
-.navbar li a:hover, .thispage, .sidenav a:hover {
+.navbar li a:hover, .sidenav a:hover {
   animation-name: hoveron;
   animation-duration: 200ms;
   animation-fill-mode: both;
+}
+
+.thispage {
+  background-color: var(--darkpurp);
 }
 
 .sidenav {
@@ -112,8 +116,6 @@ main a {
   background-color: var(--darkpurp);
 }
 
-
-
 /* ------------------ voor de Index  --------------------------------*/
 
 @keyframes hzspin{
@@ -131,8 +133,6 @@ main a {
   font-size: 10px;
   color: gray;
 }
-
-
 
 /* ------------------- voor de Profile -----------------------------------*/
 
