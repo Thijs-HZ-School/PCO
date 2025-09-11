@@ -116,6 +116,14 @@ main a {
   background-color: var(--darkpurp);
 }
 
+.secret a {
+  color: var(--darkpurp);
+}
+
+.secret a:hover {
+  color: var(--brightpurp);
+}
+
 /* ------------------ voor de Index  --------------------------------*/
 
 @keyframes hzspin{
