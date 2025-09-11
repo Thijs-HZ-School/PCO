@@ -118,6 +118,7 @@ main a {
 
 .secret a {
   color: var(--darkpurp);
+  font-size: 10px;
 }
 
 .secret a:hover {
